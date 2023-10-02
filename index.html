@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/img/xgsp-square.jpg" />
+    <title>Xbox Games Studios Publishing</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">XGS Publishing</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="'nav-item">
+              <a href="#about" class="nav-link text-white">About</a>
+            </li>
+            <li class="'nav-item">
+              <a href="#portfolio" class="nav-link text-white">Portfolio</a>
+            </li>
+            <li class="'nav-item">
+              <a href="#future-games" class="nav-link text-white"
+                >Future Games</a
+              >
+            </li>
+            <li class="'nav-item">
+              <a href="#contact" class="nav-link text-white">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-success text-light p-5 p-lg-3 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between gap-5">
+          <div>
+            <h1 class="fw-bold">Xbox Games Studios Publishing</h1>
+            <p class="h4 my-4">
+              Partnering with world-class independent studios to create
+              innovative Xbox franchises.
+            </p>
+            <p class="h5 my-4">
+              We empower our studio partners to push the boundaries of
+              technology, storytelling and player engagement to bring great
+              games to diverse audiences everywhere.
+            </p>
+            <button
+              class="btn btn-light btn-lg text-dark fw-bold mt-3"
+              data-bs-toggle="modal"
+              data-bs-target="#dev-collaboration"
+            >
+              Who Should We Work With?
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block pt-5 pb-4"
+            src="img/as-dusk-falls-award.jfif"
+            alt="As Dusk Falls 2022 GOTY Award"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Commitment Section -->
+    <section class="p-5">
+      <div class="container">
+        <h2 class="text-center h1 fw-bold">Our Commitment:</h2>
+        <h2 class="text-center pb-4">
+          More games for more people. Wherever you play.
+        </h2>
+        <div class="row text-center g-4">
+          <!-- Col 1 -->
+          <div class="col-md">
+            <div class="card bg-success text-light h-100">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-pc"></i>
+                </div>
+                <h3 class="card-title mb-3">PC</h3>
+                <p class="card-text">
+                  Play your favorite games on any PC or laptop through our
+                  dedicated Xbox app or the Steam storefront.
+                </p>
+                <a href="#" class="btn btn-secondary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Col 2 -->
+          <div class="col-md">
+            <div class="card bg-secondary text-light h-100">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-controller"></i>
+                </div>
+                <h3 class="card-title mb-3">Console</h3>
+                <p class="card-text">
+                  Play your favorite games on the Xbox Series consoles.
+                  Backwards compatible with 4 generations of games!
+                </p>
+                <a href="#" class="btn btn-success">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Col 3 -->
+          <div class="col-md">
+            <div class="card bg-success text-light h-100">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-cloud"></i>
+                </div>
+                <h3 class="card-title mb-3">Cloud</h3>
+                <p class="card-text">
+                  No PC or console? No problem! Stream your favorite games
+                  through your TV or cellphone.
+                </p>
+                <a href="#" class="btn btn-secondary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="p-5 bg-success text-white">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img
+              src="img/phil-spencer.jpg"
+              class="img-fluid rounded-4"
+              alt="Phil Spencer"
+            />
+          </div>
+          <div class="col-md p-5">
+            <h2 class="mb-3 fs-1">Get To Know Us</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              quis dolorem praesentium commodi possimus. Optio?
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Laudantium dolorem recusandae distinctio voluptates ullam veniam
+              aut numquam dolores veritatis mollitia enim, illum sunt officia
+              totam, eos ipsam adipisci sequi? Dicta.
+            </p>
+            <p>
+              <span class="fst-italic h5">Phil Spencer</span>, CEO of Microsoft
+              Gaming
+            </p>
+            <a href="#about" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2 class="mb-3 fs-1">
+              An Inclusive Team Necessary For Xbox's Bright Future
+            </h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              quis dolorem praesentium commodi possimus. Optio?
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Laudantium dolorem recusandae distinctio voluptates ullam veniam
+              aut numquam dolores veritatis mollitia enim, illum sunt officia
+              totam, eos ipsam adipisci sequi? Dicta.
+            </p>
+            <a href="#about" class="btn btn-success mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+          <div class="col-md">
+            <img
+              src="img/leadership-team.png"
+              class="img-fluid rounded-4"
+              alt="Xbox leadership team"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="p-5 bg-success">
+      <div class="container">
+        <h2 class="text-center text-white mt-4 mb-5 fs-1 fw-bold">
+          Xbox Game Studios Publishing Most Recent Releases
+        </h2>
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light h-100">
+              <div class="card-body text-center">
+                <img
+                  src="img/ori.jpg"
+                  alt="Ori and the Will of the Wisps"
+                  class="rounded-3 mb-3 img-fluid"
+                />
+                <h3 class="card-title mb-3">Ori and the Will of the Wisps</h3>
+                <p class="card-text">
+                  <span class="fw-bold">Developer:</span> Moon Studios <br />
+                  <span class="fw-bold">Genre:</span> 2D Metroidvania <br />
+                  <span class="fw-bold">Platforms:</span> PC, Xbox & Switch
+                </p>
+                <a href="#portfolio"
+                  ><i class="bi bi-twitter text-dark mx-1"></i
+                ></a>
+                <a href="#portfolio"
+                  ><i class="bi bi-facebook text-dark mx-1"></i
+                ></a>
+                <a href="#portfolio"
+                  ><i class="bi bi-linkedin text-dark mx-1"></i
+                ></a>
+                <a href="#portfolio"
+                  ><i class="bi bi-instagram text-dark mx-1"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light h-100">
+              <div class="card-body text-center">
+                <img
+                  src="img/gears-tactics.jpg"
+                  alt="Gears Tactics"
+                  class="rounded-3 mb-3 img-fluid"
+                />
+                <h3 class="card-title mb-3">
+                  Gears of War: <br />
+                  Tactics
+                </h3>
+                <p class="card-text">
+                  <span class="fw-bold">Developer:</span> Splash Damage <br />
+                  <span class="fw-bold">Genre:</span> Turn-Based Tactics <br />
+                  <span class="fw-bold">Platforms:</span> PC & Xbox
+                </p>
+                <a href="#portfolio"
+                  ><i class="bi bi-twitter text-dark mx-1"></i
+                ></a>
+                <a href="#portfolio"
+                  ><i class="bi bi-facebook text-dark mx-1"></i
+                ></a>
+                <a href="#portfolio"
+                  ><i class="bi bi-linkedin text-dark mx-1"></i
+                ></a>
+                <a href="#portfolio"
+                  ><i class="bi bi-instagram text-dark mx-1"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light h-100">
+              <div class="card-body text-center">
+                <img
+                  src="img/ms-flight-simulator.jpg"
+                  alt="Microsoft Flight Simulator"
+                  class="rounded-3 mb-3 img-fluid"
+                />
+                <h3 class="card-title mb-3">Microsoft Flight Simulator</h3>
+                <p class="card-text">
+                  <span class="fw-bold">Developer:</span> Asobo Studio <br />
+                  <span class="fw-bold">Genre:</span> Flight Simulation <br />
+                  <span class="fw-bold">Platforms:</span> PC & Xbox
+                </p>
+                <a href="#portfolio"
+                  ><i class="bi bi-twitter text-dark mx-1"></i
+                ></a>
+                <a href="#portfolio"
+                  ><i class="bi bi-facebook text-dark mx-1"></i
+                ></a>
+                <a href="#portfolio"
+                  ><i class="bi bi-linkedin text-dark mx-1"></i
+                ></a>
+                <a href="#portfolio"
+                  ><i class="bi bi-instagram text-dark mx-1"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light h-100">
+              <div class="card-body text-center">
+                <img
+                  src="img/as-dusk-falls.jpg"
+                  alt="As Dusk Falls"
+                  class="rounded-3 mb-3 img-fluid"
+                />
+                <h3 class="card-title mb-3">
+                  Caroline Marchal's <br />
+                  As Dusk Falls
+                </h3>
+                <p class="card-text">
+                  <span class="fw-bold">Developer:</span> Interior Night <br />
+                  <span class="fw-bold">Genre:</span> Narrative Adventure <br />
+                  <span class="fw-bold">Platforms:</span> PC & Xbox
+                </p>
+                <a href="#portfolio"
+                  ><i class="bi bi-twitter text-dark mx-1"></i
+                ></a>
+                <a href="#portfolio"
+                  ><i class="bi bi-facebook text-dark mx-1"></i
+                ></a>
+                <a href="#portfolio"
+                  ><i class="bi bi-linkedin text-dark mx-1"></i
+                ></a>
+                <a href="#portfolio"
+                  ><i class="bi bi-instagram text-dark mx-1"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions Accordion -->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-5 fs-1">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Question 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+                Are you an Xbox first party studio?
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Adipisci, corporis non quaerat, quidem molestiae cupiditate
+                repudiandae vero, id minus rem animi maxime voluptates? Aut illo
+                blanditiis vel est quisquam deserunt eveniet distinctio neque,
+                omnis aliquam laboriosam itaque laudantium facilis eos modi
+                alias excepturi temporibus iure vitae adipisci iusto?
+                Exercitationem, expedita.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+                Are your games included in Gamepass?
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Adipisci, corporis non quaerat, quidem molestiae cupiditate
+                repudiandae vero, id minus rem animi maxime voluptates? Aut illo
+                blanditiis vel est quisquam deserunt eveniet distinctio neque,
+                omnis aliquam laboriosam itaque laudantium facilis eos modi
+                alias excepturi temporibus iure vitae adipisci iusto?
+                Exercitationem, expedita.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+                Do you collaborate with Xbox developers or just independent
+                ones?
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Adipisci, corporis non quaerat, quidem molestiae cupiditate
+                repudiandae vero, id minus rem animi maxime voluptates? Aut illo
+                blanditiis vel est quisquam deserunt eveniet distinctio neque,
+                omnis aliquam laboriosam itaque laudantium facilis eos modi
+                alias excepturi temporibus iure vitae adipisci iusto?
+                Exercitationem, expedita.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+                Are your games exclusive to Xbox?
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Adipisci, corporis non quaerat, quidem molestiae cupiditate
+                repudiandae vero, id minus rem animi maxime voluptates? Aut illo
+                blanditiis vel est quisquam deserunt eveniet distinctio neque,
+                omnis aliquam laboriosam itaque laudantium facilis eos modi
+                alias excepturi temporibus iure vitae adipisci iusto?
+                Exercitationem, expedita.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-five"
+              >
+                What are your most popular games?
+              </button>
+            </h2>
+            <div
+              id="question-five"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Adipisci, corporis non quaerat, quidem molestiae cupiditate
+                repudiandae vero, id minus rem animi maxime voluptates? Aut illo
+                blanditiis vel est quisquam deserunt eveniet distinctio neque,
+                omnis aliquam laboriosam itaque laudantium facilis eos modi
+                alias excepturi temporibus iure vitae adipisci iusto?
+                Exercitationem, expedita.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Games -->
+    <section id="future-games" class="p-5 bg-success">
+      <div class="container">
+        <h2 class="text-center text-white mt-4 mb-5 h1 fw-bold">
+          Xbox Game Studios Publishing Future Games
+        </h2>
+        <div class="row g-4 justify-content-center">
+          <!-- Card 1 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light h-100">
+              <div class="card-body text-center">
+                <img
+                  src="img/ara.webp"
+                  alt="Ara History Untold"
+                  class="rounded-3 mb-3 img-fluid"
+                />
+                <h3 class="card-title mb-3">Ara History Untold</h3>
+                <p class="card-text">
+                  <span class="fw-bold">Developer:</span> Oxide Games <br />
+                  <span class="fw-bold">Genre:</span> Real-Time-Strategy <br />
+                  <span class="fw-bold">Platforms:</span> PC <br />
+                  <span class="fw-bold">Release Date: </span>Q2, 2024
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light h-100">
+              <div class="card-body text-center">
+                <img
+                  src="img/contraband.jpg"
+                  alt="Contraband"
+                  class="rounded-3 mb-3 img-fluid"
+                />
+                <h3 class="card-title mb-3">Contraband</h3>
+                <p class="card-text">
+                  <span class="fw-bold">Developer:</span> Avalanche Studios
+                  <br />
+                  <span class="fw-bold">Genre:</span> Co-op Shooter <br />
+                  <span class="fw-bold">Platforms:</span> PC & Xbox <br />
+                  <span class="fw-bold">Release Date: </span>2024
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light h-100">
+              <div class="card-body text-center">
+                <img
+                  src="img/overdose.webp"
+                  alt="Overdose"
+                  class="rounded-3 mb-3 img-fluid"
+                />
+                <h3 class="card-title mb-3">Project Overdose</h3>
+                <p class="card-text">
+                  <span class="fw-bold">Developer:</span> Kojima Productions
+                  <br />
+                  <span class="fw-bold">Genre:</span> Survival-Horror <br />
+                  <span class="fw-bold">Platforms:</span> TBC <br />
+                  <span class="fw-bold">Release Date: </span> TBC
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section id="contact" class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4 fs-1">Contact Information</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Location:</span> One Microsoft Way,
+                Redmond WA 98052
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Phone Number:</span> (452) 882-8080
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Email:</span>
+                contact@xboxgamespublishing.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold"
+                  >Twitter <i class="bi bi-twitter"></i>
+                </span>
+                @XboxPublishing
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold"
+                  >LinkedIn <i class="bi bi-linkedin"></i
+                ></span>
+                @Xbox-Publishing
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-success text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Sign Up For Updates</h3>
+          <div class="input-group news-input">
+            <input type="text" class="form-control" placeholder="Enter Email" />
+            <button class="btn bg-dark btn-lg text-light" type="button">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div
+        class="container d-flex gap-4 justify-content-center align-items-center"
+      >
+        <p class="lead">Copyright &copy; 2023 XGS Publishing</p>
+        <img
+          src="/img/xbox-banner-xgsgp.webp"
+          class="w-25 rounded d-none d-md-block"
+        />
+        <a href="" class="position-absolute bottom-0 end-0 p-5"
+          ><i class="bi bi-arrow-up-circle h1 text-light"></i
+        ></a>
+      </div>
+    </footer>
+
+    <!-- Dev Collaboration Modal -->
+    <div
+      class="modal fade"
+      id="dev-collaboration"
+      tabindex="-1"
+      aria-labelledby="dev-collaborationLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="dev-collaborationLabel">
+              Who should we make a game with?
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">
+              Fill out this form for a chance to win a 1 year subscription to
+              Xbox Gamepass Ultimate!
+            </p>
+            <form>
+              <div class="mb-3">
+                <label for="full-name" class="col-form-label">Full Name:</label>
+                <input type="text" class="form-control" id="full-name" />
+              </div>
+              <div class="mb-3">
+                <label for="dev-1" class="col-form-label">Developer 1:</label>
+                <input type="text" class="form-control" id="dev-1" />
+              </div>
+              <div class="mb-3">
+                <label for="dev-2" class="col-form-label">Developer 2:</label>
+                <input type="text" class="form-control" id="dev-2" />
+              </div>
+              <div class="mb-3">
+                <label for="dev-3" class="col-form-label">Developer 3:</label>
+                <input type="text" class="form-control" id="dev-3" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="text" class="form-control" id="email" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-success" id="submitForm">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoiYWNrdHJlcHRvdyIsImEiOiJjbGNqeHlpNngwMzBkM3VxbXNpNXdxc2puIn0.Unjdlv-Ntg_2sZrlsLdwIA";
+      var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/streets-v11",
+        center: [-122.1286, 47.6397],
+        zoom: 15,
+      });
+    </script>
+    <script>
+      document.getElementById("submitForm").addEventListener("click", () => {
+        const fullName = document.getElementById("full-name").value;
+        const developer1 = document.getElementById("dev-1").value;
+        const developer2 = document.getElementById("dev-2").value;
+        const developer3 = document.getElementById("dev-3").value;
+        const email = document.getElementById("email").value;
+
+        console.log("Full Name:", fullName);
+        console.log("Developer 1:", developer1);
+        console.log("Developer 2:", developer2);
+        console.log("Developer 3:", developer3);
+        console.log("Email:", email);
+      });
+    </script>
+  </body>
+</html>
