@@ -26,8 +26,8 @@ Finally, due to little hands-on experience with Bootstrap during Meta's Front-En
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/acktreptow/xgsp-bootstrap.git`
-2. Navigate to the project directory: `cd xgsp-bootstrap`
+1. Clone the repository: `git clone https://github.com/acktreptow/xgs-publishing.git`
+2. Navigate to the project directory: `cd xgs-publishing`
 3. Open the `index.html` file in your preferred web browser.
 
 ## Future Enhancements
