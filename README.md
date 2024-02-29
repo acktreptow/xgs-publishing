@@ -1,6 +1,6 @@
 # Xbox Games Studios Publishing Bootstrap Homepage
 
-A homepage for Xbox's publishing arm. Created mostly with the Bootstrap library.
+A Boostrap homepage for Xbox's publishing arm.
 
 ## Technologies Used:
 
