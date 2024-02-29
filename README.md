@@ -1,14 +1,14 @@
-# Xbox Games Studios Publishing Bootstrap Homepage
+# Xbox Games Studios Publishing Application
 
 A Boostrap homepage for Xbox's publishing arm.
 
 ## Technologies Used:
 
-- HTML
-- CSS
-- Vanilla JavaScript
 - Bootstrap
+- JavaScript
 - Mapbox API
+- CSS
+- HTML
 
 ## Project Overview
 
