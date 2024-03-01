@@ -12,9 +12,9 @@ A Boostrap homepage for Xbox's publishing arm.
 
 ## Project Overview
 
-After finishing Meta's Frontend Developer certification, I wanted to get more hands-on experience with Bootstrap as the syllabus was limited in this area. That's why the homepage has numerous features like both grid and flexbox, modals, a hamburger menu for mobile screens, forms, cards, an accordion, Bootstrap icons etc.
+After finishing Meta's Frontend Developer certification, I wanted to get more hands-on experience with Bootstrap as the syllabus was limited in this area.
 
-I have also adhered to responsive design, incorporated some vanilla JavaScript for extra functionality, and implemented the Mapbox api to make the homepage more professional looking. Thanks to this project, I can confidently say I have a solid grasp of Bootstrap.
+That's why the homepage has a myriad of features like modals, a hamburger menu for mobile screens, forms, cards, an accordion, Bootstrap icons etc. I also incorporated some vanilla JavaScript and called the Mapbox api to make the homepage more interactive.
 
 Finally, due to the limited hands-on experience during Meta's Front-End Developer program, my ability to read through/understand documentation has also significantly increased. This wasn't the goal of the project, but it's a nice side effect nonetheless!
 
