@@ -28,7 +28,7 @@ To run the project locally, follow these steps:
 
 ## Future Enhancements
 
-I'd like to reference proper links for the games' social media icons at some point. Other, less complete projects will be prioritized though, as this doesn't affect the goal of the project. Which was to showcase my Bootstrap skills.
+I achieved my goal of improving and showcasing my Bootstrap skills so there will be no major updates.
 
 ## Contact
 
