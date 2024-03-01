@@ -16,7 +16,7 @@ After finishing Meta's Frontend Developer certification, I wanted to get more ha
 
 That's why the homepage has a myriad of features like modals, a hamburger menu for mobile screens, forms, cards, an accordion, Bootstrap icons etc. I also incorporated some vanilla JavaScript and called the Mapbox api to make the homepage more interactive.
 
-Finally, due to the limited hands-on experience during Meta's Front-End Developer program, my ability to read through/understand documentation has also significantly increased. This wasn't the goal of the project, but it's a nice side effect nonetheless!
+Finally, due to the limited Bootstrap experience during Meta's syllabus, my ability to read through framework/library documentation has also significantly increased. This wasn't the primary goal, but it's a nice side effect nonetheless!
 
 ## Installation
 
